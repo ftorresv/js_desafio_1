@@ -8,17 +8,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
   </head>
   <body>
 <section class="bloque">
-<p> El costo de un equipo es de <span id="unitario">40000</span>
+<div class="card mt-3 pt-2" style="width: 18rem;">
+  <img src="img/notebook.jpg" class="card-img-top" alt="Eqwuipo computacional">
+  <div class="card-body">
+    <h5 class="card-title">Notebook HP 240 G9 i3-1215U 1.20Ghz 8GB SSD 512GB 14 Pulg. W11 Home</h5>
+    <p class="card-text text-danger">Oferta Cyber 2025 </p>
+<p> El costo de un equipo es de <span id="unitario">385990</span>
     <br>
-    El costo total es de <span id="total">0</span>
-</p>
-    <p>El número de clicks es igual a <span id="clicks">0</span></p>
-    <button id="suma">Suma</button>
-    <button id="resta">Resta</button>
-    <button id="reset">Resetear</button>
+   <button id="suma" class="btn btn-success">Suma</button>
+<button id="resta" class="btn btn-warning">Resta</button>
+
+  </div>
+</div>
+<div class="resumen mt-3">
+  <div>
+    El costo total es de <span id="total">0</span><br>
+    El número de clicks es igual a <span id="clicks">0</span>
+  </div>
+  <button id="reset" class="btn btn-outline-secondary">Resetear</button>
+</div>
+
 </section>
 
 
